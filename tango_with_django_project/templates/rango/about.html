@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About</title>
+</head>
+<body>
+ <h1>THis page is about Rango...</h1>
+        hi I'm <strong>{{ boldmessage }}</strong><br />
+        <a href="/rango/">Main Page</a><br />
+<img src="{% static 'images/rango.jpg' %}" alt="Picture of Rango" />
+</body>
+</html>
